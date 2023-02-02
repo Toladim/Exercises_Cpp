@@ -1,0 +1,29 @@
+#include <conio.h>
+#include <iostream>
+
+using namespace std;
+int main()
+{
+	int year;
+
+	cout << "Podaj rok do sprawdzenia: ";
+
+		cin >> year;
+
+		 if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0)
+
+			cout << "To rok przestepny!";
+
+		else if (year % 4 == 0 && year % 100 == 0)
+
+			cout << "To nie jest rok przestepny!";
+
+		else if (year % 4 == 0)
+
+			cout << "To rok przestepny!";
+
+		else
+			cout << "To nie jest rok przestepny!";
+
+	int	getch();
+}
